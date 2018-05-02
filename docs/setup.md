@@ -9,4 +9,13 @@
 1. Rename based on version. For example: julia-0.6.2
 1. Create a symbolic link to julia's bin folder from a dir on the path
     * $ sudo ln -s ~/Julia/julia-0.6.2/bin/julia /usr/local/bin/julia
+    
+### Cairo
+**CAUTION: adding Cairo Julia package is failing**
+* https://www.cairographics.org/
+* https://github.com/JuliaGraphics/Cairo.jl
+1. In the Julia REPL, run: 
+* Pkg.add("Cairo")
+
+
 
